@@ -11,8 +11,6 @@ function exitCommand(){ //Permet de quitter le programme en appuyant sur ctrl+P
     stdin.on('data',key =>{
       if(key=='\u0010') {
         process.exit();
-        running=false;
-        console.log('bug');
       }
    })
 }
