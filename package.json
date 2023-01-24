@@ -1,0 +1,21 @@
+{
+  "name": "js_cli",
+  "version": "1.0.0",
+  "description": "Mon premier interpréteur",
+  "type": "module",
+  "main": "interfaceCommand.js",
+  "scripts": {
+    "test": "node interfaceCommand.js"
+  },
+  "keywords":[
+    "ELP",
+    "GO"
+  ],
+  "author": "Rebecca Djimtoingar",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "keyboard": "^0.0.1",
+    "prompt-sync": "^4.2.0"
+  }  
+}
